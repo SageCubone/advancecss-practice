@@ -1,0 +1,12 @@
+.board{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 100px;
+    height: 100px;
+}
+.board div{
+    background-color: black;
+}
+.board div:nth-child(odd){
+    background-color: white;
+}
